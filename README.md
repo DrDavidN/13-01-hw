@@ -50,8 +50,8 @@ Terraform will perform the following actions:
 
   # yandex_compute_instance.nat-instance must be replaced
 -/+ resource "yandex_compute_instance" "nat-instance" {
-      ~ created_at                = "2023-05-23T13:24:26Z" -> (known after apply)
-      ~ folder_id                 = "b1g72hofn0r6eom3l3oo" -> (known after apply)
+      ~ created_at                = "2024-07-11T10:24:26Z" -> (known after apply)
+      ~ folder_id                 = "b1gg65gm92a1t1aubju3" -> (known after apply)
       ~ fqdn                      = "nat-instance-vm1.netology.cloud" -> (known after apply)
       ~ id                        = "ef31lusidsidfgh0pna4" -> (known after apply)
       - labels                    = {} -> null
@@ -104,8 +104,8 @@ Terraform will perform the following actions:
 
   # yandex_compute_instance.private-vm must be replaced
 -/+ resource "yandex_compute_instance" "private-vm" {
-      ~ created_at                = "2023-05-23T13:24:27Z" -> (known after apply)
-      ~ folder_id                 = "b1g72hofn0r6eom3l3oo" -> (known after apply)
+      ~ created_at                = "2024-07-11T10:24:27Z" -> (known after apply)
+      ~ folder_id                 = "b1gg65gm92a1t1aubju3" -> (known after apply)
       ~ fqdn                      = "private-vm1.netology.cloud" -> (known after apply)
       ~ id                        = "ef38fe1fr2qos3q0j2aq" -> (known after apply)
       - labels                    = {} -> null
@@ -159,8 +159,8 @@ Terraform will perform the following actions:
 
   # yandex_compute_instance.public-vm must be replaced
 -/+ resource "yandex_compute_instance" "public-vm" {
-      ~ created_at                = "2023-05-23T13:24:25Z" -> (known after apply)
-      ~ folder_id                 = "b1g72hofn0r6eom3l3oo" -> (known after apply)
+      ~ created_at                = "2024-07-11T10:24:25Z" -> (known after apply)
+      ~ folder_id                 = "b1gg65gm92a1t1aubju3" -> (known after apply)
       ~ fqdn                      = "public-vm1.netology.cloud" -> (known after apply)
       ~ id                        = "ef3vfq550h2imoekfdqp" -> (known after apply)
       - labels                    = {} -> null
